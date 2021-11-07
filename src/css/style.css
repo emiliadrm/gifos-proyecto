@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ARREGLAR ESTILO DEL APP*/
+  .App {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    background: #e5e5e5;
+  }
+  
+  /* ESTILO DEL HEADER */
+  
+  h3,
+  h2,
+  h1 {
+    color: #572ee5;
+  }
+  
+
+  .dark h3,
+  .dark h2,
+  .dark h1 {
+    color: #ffffff;
+  }
+  
+  h2 {
+    padding-top: 20px;
+  }
+
+  .dark .btn {
+    background-color: #373737;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  .btn {
+    font-weight: 600;
+    color: #6809e1;
+    width: 148px;
+    height: 43px;
+    border: 1px solid #6809e1;
+    box-sizing: border-box;
+    border-radius: 61px;
+  }
+  
+  .dark {
+    background-color: #373737;
+    color: #ffffff;
+  }
+  
+  .blueBar {
+    width: 100%;
+    height: 6px;
+    background-color:#6809E1;
+    ;
+  }
+  
+  .logoStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textPosition {
+    margin-left: -50px;
+    margin-top: 10px;
+  }
+
+  a:link, a:visited, a:active
+     {
+      text-decoration:none;
+  }
+
+  
+  .navStyle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+    padding: 22px 0px 30px;
+  }
+  
+  .dark .buttonStyle {
+    border: 1px solid #ffffff;
+  }
+
+  .dark .textStyle {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  
+  .textStyle {
+    padding: 15px;
+    width: 456px;
+    height: 52px;
+    border: 1px solid #121212;
+    border-radius: 61px 0px 0px 61px;
+    opacity: 1;
+    background: #FFFFFF30 0% 0% no-repeat padding-box;
+  }
+  
+
+  .buttonStyle {
+    width: 86px;
+    height: 52px;
+    background: #572ee5 0% 0% no-repeat padding-box;
+    border: 1px solid #121212;
+    border-radius: 0px 61px 61px 0px;
+    opacity: 1;
+  }
+  
+  .btn:hover,
+  .buttonStyle:hover {
+    background: #50e3c2;
+  }
+  
+  .flexAlign {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+  }
+
+  a .imgStyle {
+    padding: 10px;
+  }
+
+  .imgStyle {
+    width: 350px;
+    height: 350px;
+  }
+
+  .relativeDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .textNF {
+    position: absolute;
+    top: 25%;
+    font-size: 28px;
+  }
+
+  .aCompleteStyle {
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    z-index: 500;
+  }
+
+  .sugStyle {
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      padding: 10px;
+  }
+
+  .dark .sugStyle {
+      color: #ffffff;
+      background-color: #303030;
+  }
+
+  @media screen and (min-width: 600px) {
+    .conteinerResults { 
+        margin: 0px 70px;
+        padding: 20px 0px;
+    }
+  }
