@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gifos-proyecto/static/css/main.2bd3fa91.chunk.css",
-    "main.js": "/gifos-proyecto/static/js/main.30239cb3.chunk.js",
-    "main.js.map": "/gifos-proyecto/static/js/main.30239cb3.chunk.js.map",
+    "main.js": "/gifos-proyecto/static/js/main.97ec0194.chunk.js",
+    "main.js.map": "/gifos-proyecto/static/js/main.97ec0194.chunk.js.map",
     "runtime-main.js": "/gifos-proyecto/static/js/runtime-main.ba9f666b.js",
     "runtime-main.js.map": "/gifos-proyecto/static/js/runtime-main.ba9f666b.js.map",
     "static/js/2.2c66d7fe.chunk.js": "/gifos-proyecto/static/js/2.2c66d7fe.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ba9f666b.js",
     "static/js/2.2c66d7fe.chunk.js",
     "static/css/main.2bd3fa91.chunk.css",
-    "static/js/main.30239cb3.chunk.js"
+    "static/js/main.97ec0194.chunk.js"
   ]
 }
