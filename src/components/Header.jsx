@@ -26,7 +26,7 @@ function BotonModo({ modoOscuro, setModoOscuro }) {
   return (
     <>
       <button className="btn" onClick={() => setModoOscuro(!modoOscuro)}>
-        MODO {modoOscuro ? "DARK" : "LIGHT"}
+        MODO {modoOscuro ? "DARK 🌚" : "LIGHT 🌝"}
       </button>
     </>
   );
